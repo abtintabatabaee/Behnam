@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Behnam/static/css/main.39529f3d.css",
+    "main.js": "/Behnam/static/js/main.f514de0b.js",
+    "static/js/453.117b0875.chunk.js": "/Behnam/static/js/453.117b0875.chunk.js",
+    "static/media/unitPic.jpg": "/Behnam/static/media/unitPic.8bdc69a1759c8ec08f7a.jpg",
+    "static/media/clinicBg.jpg": "/Behnam/static/media/clinicBg.6f710f3b1941e0881938.jpg",
+    "static/media/s1.jpg": "/Behnam/static/media/s1.ed9181367e181337fae7.jpg",
+    "static/media/s2.jpg": "/Behnam/static/media/s2.dae6c4755b5b2ad20191.jpg",
+    "static/media/dr.jpg": "/Behnam/static/media/dr.613b3281ee971bf19733.jpg",
+    "static/media/s3.jpg": "/Behnam/static/media/s3.082523f9aeb397230137.jpg",
+    "static/media/Unmatched-in-Quality-Image-panorama--syqrh407lnkw.jpg": "/Behnam/static/media/Unmatched-in-Quality-Image-panorama-bd255f5588a16e3c3ac052cec0808f10-syqrh407lnkw.c566ff6a64b22d5c4585.jpg",
+    "static/media/image0.jpeg": "/Behnam/static/media/image0.a5d62cc1ed2dc512c69d.jpeg",
+    "static/media/Dentistry-as-Artistry-Image-panorama--seu6g87koxi5.jpg": "/Behnam/static/media/Dentistry-as-Artistry-Image-panorama-73134d7aac218e0a729061d16394bac5-seu6g87koxi5.8b2d17e404774ae842ea.jpg",
+    "static/media/Impossible-to-Replicate-Image-panorama--yzqcri75k86e.jpg": "/Behnam/static/media/Impossible-to-Replicate-Image-panorama-af0feaa553d82aae8cdcd0e318d3346f-yzqcri75k86e.abe97af76da07673ab77.jpg",
+    "static/media/HvDTrial_Brandon_Grotesque_black-BF64a625c944b08.otf": "/Behnam/static/media/HvDTrial_Brandon_Grotesque_black-BF64a625c944b08.f29dfdd24d706c5afe1d.otf",
+    "static/media/HvDTrial_Brandon_Grotesque_medium_italic-BF64a625c928c55.otf": "/Behnam/static/media/HvDTrial_Brandon_Grotesque_medium_italic-BF64a625c928c55.a5255465f45a0a8617a8.otf",
+    "static/media/HvDTrial_Brandon_Grotesque_bold_italic-BF64a625c93b0ce.otf": "/Behnam/static/media/HvDTrial_Brandon_Grotesque_bold_italic-BF64a625c93b0ce.5d53fa36cd548386a0b5.otf",
+    "static/media/HvDTrial_Brandon_Grotesque_black_italic-BF64a625c93406c.otf": "/Behnam/static/media/HvDTrial_Brandon_Grotesque_black_italic-BF64a625c93406c.08e76b3f3a70ed30249f.otf",
+    "static/media/HvDTrial_Brandon_Grotesque_bold-BF64a625c9151d5.otf": "/Behnam/static/media/HvDTrial_Brandon_Grotesque_bold-BF64a625c9151d5.ee325cded3ce705a31ba.otf",
+    "static/media/HvDTrial_Brandon_Grotesque_medium-BF64a625c84a521.otf": "/Behnam/static/media/HvDTrial_Brandon_Grotesque_medium-BF64a625c84a521.561386609b7174ac051b.otf",
+    "static/media/HvDTrial_Brandon_Grotesque_light-BF64a625c93e709.otf": "/Behnam/static/media/HvDTrial_Brandon_Grotesque_light-BF64a625c93e709.f3adaa0005afb1b8f469.otf",
+    "static/media/HvDTrial_Brandon_Grotesque_regular_italic-BF64a625c94445e.otf": "/Behnam/static/media/HvDTrial_Brandon_Grotesque_regular_italic-BF64a625c94445e.a9c8576e1b564a291f94.otf",
+    "static/media/HvDTrial_Brandon_Grotesque_regular-BF64a625c9311e1.otf": "/Behnam/static/media/HvDTrial_Brandon_Grotesque_regular-BF64a625c9311e1.922992580a2fc142eb9a.otf",
+    "static/media/HvDTrial_Brandon_Grotesque_light_italic-BF64a625c93ac64.otf": "/Behnam/static/media/HvDTrial_Brandon_Grotesque_light_italic-BF64a625c93ac64.897151f0723e16efc926.otf",
+    "static/media/HvDTrial_Brandon_Grotesque_thin_italic-BF64a625c918a96.otf": "/Behnam/static/media/HvDTrial_Brandon_Grotesque_thin_italic-BF64a625c918a96.d5ed5e71484f1e4ec896.otf",
+    "static/media/HvDTrial_Brandon_Grotesque_thin-BF64a625c9034b9.otf": "/Behnam/static/media/HvDTrial_Brandon_Grotesque_thin-BF64a625c9034b9.9f4d1163aae3554d70f0.otf",
+    "index.html": "/Behnam/index.html",
+    "main.39529f3d.css.map": "/Behnam/static/css/main.39529f3d.css.map",
+    "main.f514de0b.js.map": "/Behnam/static/js/main.f514de0b.js.map",
+    "453.117b0875.chunk.js.map": "/Behnam/static/js/453.117b0875.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39529f3d.css",
+    "static/js/main.f514de0b.js"
+  ]
+}
