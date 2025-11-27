@@ -71,11 +71,11 @@ setOpen3(false)
 }, [openMenu]);
   return (
 
-    <div className='sm:w-full sm:flex sm:justify-between sm:items-center sm:p-5 font-smilbold  text-lg relative'>
+    <div className='sm:w-full sm:flex sm:justify-between sm:items-center sm:p-5 font-smilbold sm:text-lg relative flex items-center justify-end p-5 gap-10'>
     {/* logo */}
     <div className='sm:w-[10%]'><Link to={"/"}>your Logo</Link></div>
     {/* nav */}
-    <nav className='sm:w-[60%]'>
+    <nav className='sm:w-[60%] sm:block hidden'>
                 <ul className='sm:flex sm:justify-around uppercase'>
                     <li onMouseEnter={showHandler} onMouseLeave={leaveHandler}  className='relative cursor-default font-brandonBold sm:text-sm' ><div>what we do</div>
                     
@@ -108,31 +108,44 @@ setOpen3(false)
     </nav>
     {/* menu icon */}
     <div className='sm:w-auto'>
-       <Link className=''> <svg onClick={openMenuHandler} className='w-full' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path></svg></Link>
+       <Link className=''><svg onClick={openMenuHandler} 
+     className='w-full sm:w-[24px] sm:h-[24px] w-[24px] h-[24px]' 
+     xmlns="http://www.w3.org/2000/svg" 
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     strokeWidth="4" 
+     strokeLinecap="round" 
+     strokeLinejoin="round">
+  <path d="M3 4H21" />
+  <path d="M3 11H21" />
+  <path d="M3 18H21" />
+</svg>
+</Link>
     </div>
 
     {/* open menu */}
   
-<div className={openMenu? "bg-black sm:translate-x-0 transform transition-all ease-linear  sm:fixed z-50 sm:top-0 sm:right-0 sm:h-dvh sm:w-dvw sm:z-[60] sm:p-10 sm:flex sm:flex-col sm:items-center": "bg-black sm:translate-x-full z-50 transform transition-all  ease-linear  sm:fixed sm:top-0 sm:right-0 sm:h-dvh sm:w-dvw sm:z-[60] sm:p-10 sm:flex sm:flex-col sm:items-center" }>
+<div className={openMenu? "bg-black translate-x-0 transform transition-all ease-linear  fixed z-50 top-0 right-0 h-dvh w-dvw z-[60] p-10 flex flex-col items-center": "bg-black translate-x-full z-50 transform transition-all  ease-linear  fixed top-0 right-0 h-dvh w-dvw z-[60] p-10 flex flex-col items-center" }>
                         <div className='text-white'>your logo</div>
-                        <div className='text-white font-brandonLight sm:flex sm:items-center sm:justify-between sm:w-[60%] sm:p-5 sm:relative'><span className={open1? "cursore-pointer font-brandon text-[#A2D1DC]":"curser-pointer text-white"}>what we do</span><span>{open1 ===false ?<svg onClick={openHandler1} className='cursor-pointer' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler1} className='cursor-pointer' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</span>
+                        <div className='text-white mt-3 font-brandonLight flex items-center justify-between w-full sm:w-[60%] sm:p-5 p-1 relative'><span className={open1? "cursore-pointer font-brandon text-[#A2D1DC]":"curser-pointer text-white"}>what we do</span><span>{open1 ===false ?<svg onClick={openHandler1} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler1} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</span>
                      
                         
                         </div>
 
-                     { open1 ===true ?  <div className='sm:w-[60%]'>
-                            <ul className='sm:flex sm:flex-col sm:gap-3 p-5'>
+                     { open1 ===true ?  <div className='sm:w-[60%] w-full'>
+                            <ul className='flex flex-col gap-3 sm:p-5  p-3'>
                           <Link><li className='capitalize hover:text-[#A2D1DC] text-white font-brandonLight'>clinic experience</li></Link>
                           <Link><li className='capitalize hover:text-[#A2D1DC] text-white font-brandonLight'>cosmetic dentistry</li></Link>
                           <Link><li className='capitalize hover:text-[#A2D1DC] text-white font-brandonLight'>porcelain veneers</li></Link>
                           <Link><li className='capitalize hover:text-[#A2D1DC] text-white font-brandonLight'>small makeover process</li></Link>
                         </ul>
                         </div>:""}
-                        <div className='text-white font-brandonLight sm:flex sm:items-center sm:justify-between sm:w-[60%] sm:p-5'><span className={open2? "cursore-pointer text-[#A2D1DC]":"curser-pointer text-white"}>who we are</span>{open2 ===false ?<svg onClick={openHandler2} className='cursor-pointer' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler2} className='cursor-pointer' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</div>
+                        <div className='text-white mt-3 font-brandonLight flex items-center justify-between w-full sm:w-[60%] sm:p-5 p-1'><span className={open2? "cursore-pointer text-[#A2D1DC]":"curser-pointer text-white"}>who we are</span>{open2 ===false ?<svg onClick={openHandler2} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler2} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</div>
 
                         {open2 ?
-                       <div className='sm:w-[60%]'>
-                         <ul className='sm:flex sm:flex-col sm:gap-3 p-5'>
+                       <div className='sm:w-[60%] w-full'>
+                         <ul className='flex flex-col gap-3 sm:p-5 p-3'>
                           <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>about us</li></Link>
                           <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>dr behnam</li></Link>
                           <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>our team</li></Link>
@@ -142,9 +155,9 @@ setOpen3(false)
                        </div>
 
                         :""}
-                        <div className='text-white font-brandonLight sm:flex sm:items-center sm:justify-between sm:w-[60%] sm:p-5'><span className={open3? "cursore-pointer text-[#A2D1DC]":"curser-pointer text-white"}>our work</span>{open3 ===false ?<svg onClick={openHandler3} className='cursor-pointer' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler3} className='cursor-pointer' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</div>
-                      {open3?  <div className='sm:w-[60%]'>
-                          <ul className='sm:flex sm:flex-col sm:gap-3 p-5'>
+                        <div className='text-white mt-3 font-brandonLight flex items-center justify-between sm:w-[60%] w-full p-1 sm:p-5'><span className={open3? "cursore-pointer text-[#A2D1DC]":"curser-pointer text-white"}>our work</span>{open3 ===false ?<svg onClick={openHandler3} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>:<svg onClick={closeHandler3} className='cursor-pointer w-5 h-5 sm:w-6 sm:h-6' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(255,255,255,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M5 11V13H19V11H5Z"></path></svg>}</div>
+                      {open3?  <div className='sm:w-[60%] w-full'>
+                          <ul className='flex flex-col gap-3 sm:p-5 p-3'>
                           <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>before/after photos</li></Link>
                           <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>patient testimonials</li></Link>
                           <Link><li className=' hover:text-[#A2D1DC] text-white font-brandonLight'>blog</li></Link>
