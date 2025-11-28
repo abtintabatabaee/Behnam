@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/Behnam/static/css/main.63016e98.css",
-    "main.js": "/Behnam/static/js/main.b124d12a.js",
+    "main.css": "/Behnam/static/css/main.70ce0f98.css",
+    "main.js": "/Behnam/static/js/main.a6e6cfe2.js",
     "static/js/453.117b0875.chunk.js": "/Behnam/static/js/453.117b0875.chunk.js",
+    "static/media/drWorking.jpg": "/Behnam/static/media/drWorking.9e8057931d61da2e19d2.jpg",
     "static/media/unitPic.jpg": "/Behnam/static/media/unitPic.8bdc69a1759c8ec08f7a.jpg",
+    "static/media/porcelainVeneer.jpg": "/Behnam/static/media/porcelainVeneer.182bc692058c25954602.jpg",
     "static/media/clinicBg.jpg": "/Behnam/static/media/clinicBg.6f710f3b1941e0881938.jpg",
     "static/media/s1.jpg": "/Behnam/static/media/s1.ed9181367e181337fae7.jpg",
+    "static/media/cosmeticDentistry.jpg": "/Behnam/static/media/cosmeticDentistry.01209a787aa2245ad1c0.jpg",
     "static/media/s2.jpg": "/Behnam/static/media/s2.dae6c4755b5b2ad20191.jpg",
+    "static/media/image1.jpeg": "/Behnam/static/media/image1.b8c98d79b7403e0bc32e.jpeg",
     "static/media/dr.jpg": "/Behnam/static/media/dr.613b3281ee971bf19733.jpg",
     "static/media/s3.jpg": "/Behnam/static/media/s3.082523f9aeb397230137.jpg",
     "static/media/Unmatched-in-Quality-Image-panorama--syqrh407lnkw.jpg": "/Behnam/static/media/Unmatched-in-Quality-Image-panorama-bd255f5588a16e3c3ac052cec0808f10-syqrh407lnkw.c566ff6a64b22d5c4585.jpg",
@@ -26,12 +30,12 @@
     "static/media/HvDTrial_Brandon_Grotesque_thin_italic-BF64a625c918a96.otf": "/Behnam/static/media/HvDTrial_Brandon_Grotesque_thin_italic-BF64a625c918a96.d5ed5e71484f1e4ec896.otf",
     "static/media/HvDTrial_Brandon_Grotesque_thin-BF64a625c9034b9.otf": "/Behnam/static/media/HvDTrial_Brandon_Grotesque_thin-BF64a625c9034b9.9f4d1163aae3554d70f0.otf",
     "index.html": "/Behnam/index.html",
-    "main.63016e98.css.map": "/Behnam/static/css/main.63016e98.css.map",
-    "main.b124d12a.js.map": "/Behnam/static/js/main.b124d12a.js.map",
+    "main.70ce0f98.css.map": "/Behnam/static/css/main.70ce0f98.css.map",
+    "main.a6e6cfe2.js.map": "/Behnam/static/js/main.a6e6cfe2.js.map",
     "453.117b0875.chunk.js.map": "/Behnam/static/js/453.117b0875.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63016e98.css",
-    "static/js/main.b124d12a.js"
+    "static/css/main.70ce0f98.css",
+    "static/js/main.a6e6cfe2.js"
   ]
 }
