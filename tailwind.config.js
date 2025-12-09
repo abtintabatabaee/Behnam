@@ -10,7 +10,13 @@ module.exports = {
           brandon: ['"BrandonGrotesque-Regular"', 'sans-serif'],
       brandonBold: ['"BrandonGrotesque-Bold"', 'sans-serif'],
       brandonLight: ['"BrandonGrotesque-Light"', 'sans-serif'],
+      brandonItalic:[ "BrandonGrotesque-LightItalic",'sans-serif'],
+      brandonBoldItalic:[ "BrandonGrotesque-BoldItalic",'sans-serif']
     },
+
+     backgroundImage: {
+        dynamic: "var(--bg-image)",
+      },
 
     },
   },

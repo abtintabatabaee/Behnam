@@ -5,47 +5,70 @@ import BeforeAndAfter from '../components/BeforeAndAfter'
 const ClinicExperience = () => {
   return (
     <Layout>
-                <div className='w-full sm:h-[700px] sm:bg-cover sm:bg-center bg-[url("assets/photos/clinicBg.jpg")] relative'>
-                    <div className='absolute sm:w-full sm:h-full bg-black opacity-35'></div>
-                    <div className='sm:absolute sm:top-0 sm:w-full sm:h-full sm:left-0 sm:p-5 sm:flex sm:flex-col sm:items-start sm:justify-center sm:gap-5'>
-                        <h1 className='uppercase text-white text-2xl font-brandonBold'>REDEFINING EXCELLENCE</h1>
-                        <p className='text-white font-brandon text-xl'>Ben's Aesthetic is the unrivaled dental destination for want-based treatment and life-changing results.</p>
+
+    <section className='w-full bg-[#1a1a1a] flex flex-col  sm:p-5'>
+    <h1 className='w-full font-brandonBold text-2xl text-white text-start p-5 uppercase'>Welkom bij TANDIS Dental Clinic</h1>
+    <ul className='sm:w-1/2 w-full flex flex-col gap-5 p-5'>
+      <li className='font-brandon text-xl text-[#A2D1DC]'>Bij TANDIS is tandheelkundige zorg meer dan een behandeling—
+het is een professionele, nauwkeurige en betrouwbare ervaring.</li>
+      <li className='font-brandon text-xl text-[#A2D1DC]'>Ons team, met jarenlange klinische expertise en gebruik van de nieuwste technologie,
+biedt zorg die volledig gericht is op juiste diagnose, nauwkeurig werk en de lange-termijngezondheid
+van uw mond.</li>
+      <li className='font-brandon text-xl text-[#A2D1DC]'>We hebben een rustige, respectvolle en goed georganiseerde omgeving gecreëerd
+waarin elke patiënt zich ondersteund voelt door een ervaren en zorgzaam team.</li>
+      <li className='font-brandon text-xl text-[#A2D1DC]'>✔ Zorg voor het hele gezin — voor alle leeftijden</li>
+      <li className='font-brandon text-xl text-[#A2D1DC]'>✔Een rustige, professionele en moderne omgeving</li>
+      <li className='font-brandon text-xl text-[#A2D1DC]'>✔Een ervaren team ,toegewijd aan correcte en duurzame
+behandelingen</li>
+      <li className='font-brandon text-xl text-[#A2D1DC]'>Bij TANDIS geloven we dat een goede tandheelkundige ervaring begint met wetenschappelijke zorg, een juiste diagnose en een professioneel team.</li>
+      <li className='font-brandon text-xl text-[#A2D1DC]'></li>
+    </ul>
+
+    </section>
+                <div className='w-full sm:h-[700px] h-[500px] bg-cover bg-center sm:bg-cover sm:bg-center bg-[url("assets/photos/clinicBg.jpg")] relative'>
+                    <div className='absolute w-full h-full bg-[#1a1a1a] opacity-35'></div>
+                    <div className='absolute top-0 w-full h-full left-0 p-5 flex flex-col items-start justify-center gap-5'>
+                        <h1 className='uppercase text-white text-2xl font-brandonBold'>Where Excellence Meets Innovation</h1>
+                        <p className='text-white font-brandon text-xl'>Ben’s Aesthetic stands as the premier dental practice for desire-driven care and transformative outcomes.</p>
                     </div>
 
                  
                 </div>
-                   <div className='w-1/2 sm:flex sm:flex-col sm:gap-3 sm:p-5 font-brandon text-lg'>
-                            <h1 className='font-brandonBold sm:text-2xl  uppercase'>About Ben's Clinic Apa Experience</h1>
-                            <p>It only takes a moment to realize Apa Aesthetic is no ordinary dentist’s office. Apa Aesthetic is an unparalleled disrupter in an industry that has for far too long relied on one-size-fits-all solutions.</p>
-                            <p>Led by Dr. Michael Apa, we have set a new standard for veneers—one that customizes every step to produce the most natural, one-of-a-kind results for every client.</p>
-                            <p>Apa Aesthetic smile makeover patients are assessed holistically and enjoy access to treatments outside of the cosmetic umbrella. From cleanings to fillings, we do it all under one roof.</p>
+                   <div className='sm:w-1/2 w-full flex flex-col gap-3 p-5 font-brandon text-lg'>
+                            <h1 className='font-brandonBold sm:text-2xl  uppercase'>Over de TANDIS-ervaring</h1>
+                            <p>Bij TANDIS voel je meteen het verschil.</p>
+                            <p>Een nieuwe, moderne praktijk waar zorg persoonlijk, precies en ontspannen wordt aangeboden.</p>
+                            <p>Elke behandeling — van smile-design tot algemene tandheelkunde — wordt volledig op jou afgestemd.</p>
+                            <p>Dat alles in een frisse, rustige omgeving met de nieuwste technologie.</p>
+                            <p>Eenvoudige, duidelijke en persoonlijke tandheelkunde.</p>
 
                     </div>
-                    <div className='w-full bg-black sm:flex sm:p-8'>
-                    <div className='w-1/2 sm:flex sm:flex-col sm:gap-5 sm:p-5'>
+                    <div className='w-full bg-[#1a1a1a] sm:flex sm:flex-row flex flex-col p-8 sm:p-8'>
+                    <div className='sm:w-1/2 w-full sm:flex sm:flex-col sm:gap-5 sm:p-5 flex flex-col gap-5 p-5'>
                       <div>
-                        <h1 className='uppercase text-white sm:text-2xl font-brandonBold'>what to expect</h1>
-                        <p className='text-white font-brandon'>At Ben's Aesthetic, we continually challenge the status quo, finding new ways to improve our treatment plans, promote oral health and elevate the world of dentistry.</p>
+                        <h1 className='uppercase text-white sm:text-2x text-2xl mb-3 sm:mb-1 font-brandonBold'>Bij TANDIS begint schoonheid met de juiste zorg</h1>
+                        {/* <p className='text-white font-brandon'>At Ben's Aesthetic, we continually challenge the status quo, finding new ways to improve our treatment plans, promote oral health and elevate the world of dentistry.</p> */}
                       </div>
                        <div>
-                        <h1 className='uppercase text-[#A2D1DC] sm:text-2xl font-brandonBold'>step into comfort.</h1>
-                        <p className='text-white font-brandon'>Our offices reflect our standard of care. Museum-worthy art adorns the walls, while a client comfort list offers access to a cashmere blanket, noise-canceling headphones, a ceiling-mounted TV and an array of CBD confections.</p>
+                        <h1 className='uppercase text-[#A2D1DC] sm:text-2xl font-brandonBold'>Eerst gezondheid, daarna esthetiek</h1>
+                        <p className='text-white font-brandon'>Met nauwkeurige restauraties, digitale diagnostiek en hoogwaardige behandelingen bouwen we eerst aan een gezonde basis — daarna creëren we een mooie glimlach.</p>
                       </div>
                        <div>
-                        <h1 className='uppercase text-[#A2D1DC] sm:text-2xl font-brandonBold'>CONNECT AND COMMUNICATE.</h1>
-                        <p className='text-white font-brandon'>From your smile makeover to aftercare, we prioritize open communication. At each step, we discuss your goals, present treatment options and welcome your feedback. This collaborative approach promises final results that align with your expectations, for a smile you’ll love.</p>
+                        <h1 className='uppercase text-[#A2D1DC] sm:text-2xl font-brandonBold'>Een gevoel van vertrouwen.</h1>
+                        <p className='text-white font-brandon'>We leggen elke stap helder uit. Niets blijft onduidelijk.
+Samen bespreken we de mogelijkheden en nemen we beslissingen in overleg.</p>
                       </div>
                        <div>
-                        <h1 className='uppercase text-[#A2D1DC] sm:text-2xl font-brandonBold'>EXPERIENCE CUSTOMIZATION.</h1>
-                        <p className='text-white font-brandon'>Dr. Behnam has assembled the world's most accomplished ceramists, in technical expertise and artistic talent, to deliver one-of-a-kind smiles. Watch as our ceramists hand-craft </p>
+                        <h1 className='uppercase text-[#A2D1DC] sm:text-2xl font-brandonBold'>Natuurlijke en duurzame resultaten.</h1>
+                        <p className='text-white font-brandon'>Onze focus ligt op echte schoonheid: een glimlach die past bij jouw gezicht, gezond blijft en de natuurlijke tanden respecteert.</p>
                       </div>
                        <div>
-                        <h1 className='uppercase text-[#A2D1DC] sm:text-2xl font-brandonBold'>ENJOY LIFELONG CARE.</h1>
-                        <p className='text-white font-brandon'>The end of your smile makeover marks the beginning of your new journey with us, aftercare. We have the training and tools to ensure the health and longevity of your treatment. Plan to see us quarterly or, at a minimum, annually for a seamless aftercare experience.</p>
+                        <h1 className='uppercase text-[#A2D1DC] sm:text-2xl font-brandonBold'>begeleiding tijdens het hele traject.</h1>
+                        <p className='text-white font-brandon'>De behandeling is niet het einde — het is het begin van blijvende zorg en opvolging.</p>
                       </div>
 
                     </div>
-                    <div className='sm:w-1/2 sm:h-[600px] sm:bg-center sm:bg-cover  bg-[url("assets/photos/unitPic.jpg")]'></div>
+                    <div className='sm:w-1/2  sm:h-[600px] w-full h-[300px] bg-center bg-cover  bg-[url("assets/photos/unitPic.jpg")]'></div>
 
                     </div>
                     <BeforeAndAfter/>
